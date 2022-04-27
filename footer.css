@@ -1,0 +1,35 @@
+.footer {
+    background-color: #050a30;
+    display: flex;
+    bottom: 0;
+ 
+}
+
+#logo {
+    width: 100px;
+    padding: 1%;
+    display: block;
+    margin: auto;
+}
+
+.footer .about,
+.footer .about h5,
+.footer .about p {
+    text-align: left;
+    padding: 0.5%;
+    color: #faf9f9;
+}
+
+.footer .creator {
+    color: #faf9f9;
+}
+
+.footer .creation,
+.footer .creation a {
+    color: #faf9f9;
+    text-align: center;
+}
+
+.footer .creation h6 {
+    margin-top: 6%;
+}

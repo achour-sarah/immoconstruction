@@ -54,7 +54,7 @@ header {
 }
 
 .navbar .items a:hover{
-    color: #ff0000;
+    color: #b1d4e0;
 }
 
 
@@ -179,38 +179,6 @@ p {
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
-.footer {
-    background-color: #050a30;
-}
-
-#logo {
-    width: 100px;
-    padding: 1%;
-    display: block;
-    margin: auto;
-}
-
-.footer .about,
-.footer .about h5,
-.footer .about p {
-    text-align: left;
-    padding: 0.5%;
-    color: #faf9f9;
-}
-
-.footer .creator {
-    color: #faf9f9;
-}
-
-.footer .creation,
-.footer .creation a {
-    color: #faf9f9;
-    text-align: center;
-}
-
-.footer .creation h6 {
-    margin-top: 6%;
-}
 
 
 #buttoncontact{
@@ -220,9 +188,9 @@ p {
     #buttoncontact button{
       
         color: #050a30;
-       
+       margin-bottom: 3%;
         border-radius: 7px;
-     width: 10%;
+     width: 200px;
      height: 5vh;
      margin-left: 2%;
      margin-right: 2%;
@@ -233,15 +201,47 @@ p {
     color:#faf9f9;
     }
     .rsdiv{
-        box-shadow:12px 12px 60px 20px rgba(0, 0, 0,0.3);
-        border-radius: 20px;
-        width: 400px;
-    
+        box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+        border-radius: 5px;
+        border: solid 0.5px  rgba(149, 157, 165, 0.5); 
+        width: 99%;
+        
         padding: 10px;
-        margin: 8%;
+        height: 120px;
+        margin: auto;
+
     }
-
-
+   
+    .rsdiv i {
+        margin-right: 8%;
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+    .rsdiv a{
+        text-decoration: none;
+        color:black;
+    }
+.contact input{
+    box-shadow: rgba(62, 96, 131, 0.5) 0px 8px 24px; 
+    border: solid 0.5px  rgba(149, 157, 165, 0.3); 
+    border-radius: 5px;
+    width: 98%;
+    height:40px ; 
+    margin-bottom: 3%;
+}
+.message{    
+     box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+    border-radius: 5px;
+    border: solid 0.5px  rgba(149, 157, 165, 0.5); 
+    width: 98%;
+    height: 120px;
+    
+   }
+   .contacter .rs{
+display: flex;
+left: 0;
+margin-bottom: 3%;
+   }
 
 /* Queries */
 
@@ -303,7 +303,7 @@ p {
     }
     .navbar-res .items a:hover{
         text-decoration: none;
-        color: #ff0000;
+        color: #b1d4e0;
     }
 
     .navbar-res .icon i{
