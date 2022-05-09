@@ -14,57 +14,56 @@ body {
 header {
     min-height: 100vh;
     width: 100%;
-    /* background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/back.jpg); */
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/background.jpg);
+   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/background.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
 }
-
-.navbar{
+/* ...............navbar.......... */
+nav{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     display: flex;  
-    z-index: 2000;
     transition: .5s;
 }
-.navbar-res{
-    display: none;
-}
-.navbar .log img{
+nav .log img{
     width: 80px;
 }
-.navbar .items{
-    display: flex;
-    justify-content: flex-end;
-    width: calc(100% - 80px);
+
+nav a{
+margin-right: 25px;
+color: white;
+
 }
 
-.navbar .items i{
-    display: none;
-}
 
-.navbar .items a{
-    color: #faf9f9;
-    font-weight: 500;
-    text-decoration: none;
-    margin: 0% 1.5%;
-}
-
-.navbar .items a:hover{
+nav a:hover{
+  
     color: #b1d4e0;
-}
+    text-decoration: none;
+    }
 
 
-.icon i{
-    display: none;
-}
-.activeNav{
-    background-color: rgba(5, 10, 48, 0.9);
-}
-
+@media screen and (max-width : 990px) {
+    nav{
+        background: linear-gradient(rgba(5, 10, 48, 1), rgba(5, 10, 48, 0.8));
+    
+    }
+    nav li{
+        margin-bottom: 30px;
+        
+        }
+        nav a{
+           text-align: center;
+            color: white;    
+            }
+            nav #ull{
+            margin: auto;
+            }
+    }
+/* ................fin navbar ........... */
 .row {
     margin: 4% 0% 4% 0%;
 }
@@ -103,12 +102,7 @@ header {
     transition: .5s;
     border-radius: 2px;
 }
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+h2,h3,h4,h5,h6,p {
     text-align: center;
 }
 .cont {
@@ -242,79 +236,32 @@ display: flex;
 left: 0;
 margin-bottom: 3%;
    }
-
-/* Queries */
-
-@media screen and (max-width : 720px) {
-
-    html{
-        width: 100%;
-        overflow-x: hidden;
-    }
-    .header{
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
-    }
-    .header .navbar{
-        display: none;
-    }
-
-    .navbar-res{
-        display: inline-block;
-    }
-
-    .navbar-res .log img{
-        position: absolute;
-        top: 0.5rem;
-        left: 0.5rem;
-        width: 70px;
-    }
-
-    .navbar-res .items{
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 0;
-        right: -100%;
-        background-color: #050a30;
-        width: 50%;
-        height: 100%;
-        z-index: 100;
-        transition: .5s;
-    }
-
-    .navbar-res .items .close{
-        margin-bottom: 2rem;
-        position: absolute;
-        top: 1rem;
-        right: 1.1rem;
-        color: #faf9f9;
-    }
-
-    .navbar-res .items .active{
-        margin-top: 100px;
-    }
-    .navbar-res .items a{
-        text-align: center;
-        padding: 1.5rem;
-        color: #faf9f9;
-        font-weight: 500;
-    }
-    .navbar-res .items a:hover{
-        text-decoration: none;
-        color: #b1d4e0;
-    }
-
-    .navbar-res .icon i{
-        display: inline-block;
-        color: #faf9f9;
-        position: absolute;
-        top: 2.5rem;
-        right: 2rem;
-    }
-
-
-
-    
+/* ................footer......................... */
+   footer{
+    margin-top: 2%;
+    background-color:rgba(5, 10, 48, 1);
+    color: white;
+  display: flex;
+  bottom: 0;   
+}
+footer .apropos{
+margin-top: 5%;
+}
+footer #logo {
+    width: 100px;
+    padding: 1%;
+    display: block;
+    margin: auto;
+    margin-top: 1%;
+}
+footer .equipe{
+  text-align: center;  
+  margin-top: 2%;
+}
+footer .equipe p{
+    font-size: 12px;
+}
+footer .cree{
+    margin-top: 10%;
+    text-align: center;  
 }

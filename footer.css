@@ -1,35 +1,29 @@
-.footer {
-    background-color: #050a30;
-    display: flex;
-    bottom: 0;
- 
+/* ................footer......................... */
+footer{
+    margin-top: 2%;
+    background-color:rgba(5, 10, 48, 1);
+    color: white;
+  display: flex;
+  bottom: 0;   
 }
-
-#logo {
+footer .apropos{
+margin-top: 5%;
+}
+footer #logo {
     width: 100px;
     padding: 1%;
     display: block;
     margin: auto;
+    margin-top: 1%;
 }
-
-.footer .about,
-.footer .about h5,
-.footer .about p {
-    text-align: left;
-    padding: 0.5%;
-    color: #faf9f9;
+footer .equipe{
+  text-align: center;  
+  margin-top: 2%;
 }
-
-.footer .creator {
-    color: #faf9f9;
+footer .equipe p{
+    font-size: 12px;
 }
-
-.footer .creation,
-.footer .creation a {
-    color: #faf9f9;
-    text-align: center;
-}
-
-.footer .creation h6 {
-    margin-top: 6%;
+footer .cree{
+    margin-top: 10%;
+    text-align: center;  
 }

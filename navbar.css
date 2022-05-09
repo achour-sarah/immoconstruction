@@ -1,0 +1,45 @@
+/* ...............navbar.......... */
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;  
+    transition: .5s;
+}
+nav .log img{
+    width: 80px;
+}
+
+nav a{
+margin-right: 25px;
+color: white;
+
+}
+
+
+nav a:hover{
+  
+    color: #b1d4e0;
+    text-decoration: none;
+    }
+
+
+@media screen and (max-width : 990px) {
+    nav{
+        background: linear-gradient(rgba(5, 10, 48, 1), rgba(5, 10, 48, 0.8));
+    
+    }
+    nav li{
+        margin-bottom: 30px;
+        
+        }
+        nav a{
+           text-align: center;
+            color: white;    
+            }
+            nav #ull{
+            margin: auto;
+            }
+    }
+/* ................fin navbar ........... */

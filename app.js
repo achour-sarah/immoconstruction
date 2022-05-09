@@ -1,7 +1,7 @@
-let navbar = document.querySelector('.header .navbar');
-let menu = document.querySelector('.header .navbar-res .icon i');
-let nav = document.querySelector('.header .navbar-res .items');
-let close = document.querySelector('.header .navbar-res .items .close i');
+let navbar = document.querySelector('.navbar');
+let menu = document.querySelector('.navbar-res .icon i');
+let nav = document.querySelector('.navbar-res .items');
+let close = document.querySelector('.navbar-res .items .close i');
 
 menu.addEventListener('click', function(){
     
